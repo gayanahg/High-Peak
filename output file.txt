@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python39\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,"__main__", mod_spec)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python39\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\ADMIN\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\__main__.py", line 45, in <module>
+    cli.main()
+  File "c:\Users\ADMIN\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py", line 444, in main
+    run()
+  File "c:\Users\ADMIN\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy/..\debugpy\server\cli.py", line 285, in run_file
+    runpy.run_path(target_as_str, run_name=compat.force_str("__main__"))
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python39\lib\runpy.py", line 267, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python39\lib\runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python39\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\ADMIN\Desktop\HIGH PEAK\High peak.py", line 45, in <module>
+    Goodies.main()
+  File "c:\Users\ADMIN\Desktop\HIGH PEAK\High peak.py", line 22, in main
+    goodies.append(Item(current[0],int(current[1])))
+TypeError: 'str' object is not callable
